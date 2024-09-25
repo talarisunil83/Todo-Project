@@ -1,0 +1,46 @@
+.task-container {
+  height: 82vh;
+  width: 30%;
+  overflow-y: scroll;
+  background-color: transparent;
+  border: 2px solid #333333;
+  padding-left: 17px;
+}
+
+.no-task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Hide scrollbar for WebKit-based browsers */
+.task-container::-webkit-scrollbar {
+  width: 0; /* For vertical scrollbar */
+  height: 0; /* For horizontal scrollbar */
+}
+
+/* Optionally for Firefox */
+.task-container {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* For all other browsers */
+.task-container {
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+}
+
+.task-list-container {
+  background-color: aliceblue;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.task-name {
+  color: #333333;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
