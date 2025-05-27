@@ -15,5 +15,9 @@ ReactDOM.render(
     sunil is a good boy beacuse is very inteligent
 
 
+
     srinu bro also good
+    
+string name="srinivas";
+
 )
